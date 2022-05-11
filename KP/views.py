@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def home(request):
     return HttpResponse("hello");
+
+def contribute(request):
+    return render(request,"contribute.html")

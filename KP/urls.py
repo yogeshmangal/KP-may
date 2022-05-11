@@ -12,4 +12,5 @@ admin.site.index_title = "Welcome to CData Knowledge Platform"
 
 urlpatterns = [
     path('',views.home, name='home'),
+    path('contribute',views.contribute, name='contribute'),
 ]
