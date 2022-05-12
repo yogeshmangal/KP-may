@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'KnowledgePlatform.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'Lucid',
+        'NAME': 'knowledgeplatform',
     }
 }
 

@@ -122,7 +122,9 @@ color: #000000;
             <section class="contri-form">
             <h2>Contribute Knowledge</h2>
 
-            <form>
+            <form method="post" action="/contribute" enctype="multipart/form-data">
+              {% csrf_token %}
+  
               <label for="ptype" class="contri-heading">1. Select the type of Problem *</label><br>
 
                 <select name="ptype" id="ptype" class="contri-label contri-heading">
